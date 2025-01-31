@@ -20,14 +20,14 @@ try:
         
         if c_cubed > 1000:
             print("<h3>Multiplying the square root of cube by 10</h3>")
-            result *= 10
+            root *= 10
         else:
             print("<h3>Dividing the square root of cube by a</h3>")
-            result /= a
+            root /= a
         
         print("<h3>Adding b to result</h3>")
-        result += b
+        root += b
         
-        print(f"<h3>Computed Result (Two decimals): {result:.2f}</h3>")
+        print(f"<h3>Computed Result (Two decimals): {root:.2f}</h3>")
 except ValueError:
     print("<h3>Error: All inputs must be numeric.</h3>")
